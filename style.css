@@ -1,0 +1,52 @@
+a{  text-decoration:none;
+    background: blue;
+    opacity: 0.3
+    margin-top:5px;
+    display:inline-block;
+    border-radius:0 10px 0 10px;
+    padding:10px;
+    border: 2px  solid green;
+}
+a:link{
+    color:green;
+}
+a:visited{
+    color:red;
+}
+a:hover{
+    opacity:1;
+    background-color: black;
+    color:white;
+}
+a:acitve{
+    background-color:gray;
+}
+
+0l{
+    list-style-type:lower-greek;
+    list-style-position:outside;
+    background:lightgreen;
+}
+li{
+    background-color:burlywood;
+    padding:5px;
+    margin:2px;
+}
+table{
+    width:50%;
+}
+table,th,td{
+    border: 2px solid green;
+    border-collapse: collapse;
+}
+th{
+    height: 50px;
+}
+td{
+    text-align:center;
+    height:50px;
+    vertical-align: top;
+}
+tr:hover{
+    backgorund:gray;
+}
